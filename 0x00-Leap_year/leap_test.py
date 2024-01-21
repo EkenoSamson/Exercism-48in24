@@ -2,9 +2,8 @@
 # Contains testcases
 
 import unittest
-from leap import (
-    leap_year,
-)
+leap_year = __import__('leap').leap_year
+# from leap import (leap_year,)
 
 
 class LeapTest(unittest.TestCase):
